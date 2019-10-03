@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+<!--
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+-->
+	<link rel="stylesheet" href="post.css">
+</head>
+<body> 
+<div class="jumbotron jumbotron-fluid">
+    
+    <div id="hh1" class="hh1">
+    <img  src="images/Noma_round.png">
+        <span id="noma"><b>Noma</b></span>
+        <span  class=""><input id="searchdiv" type="search" placeholder="Search Noma..."></span>
+       
+        <div><center>
+			<span id="myprof" class="">
+				<a href="indiv_profile.html"><img src="images/profile.png" ></a>My Profile
+				
+				<button class="idprofile" onclick="signOut()">LogOut</button></span>
+			<a href="shop.html"><span id="market">Noma marketPlace</span></a></center>
+            </div>
+    </div> 
+   
+<div id="cover">
+    <div id="gsection" class="gsection">
+        <span id="side3" class="groups"><a href="crop_feed.html">Crops</a></span><br><br>
+        <span id="side4" class="groups"><a href="animal_feed.html">Animals</a></span><br><br>
+        <span id="side5" class="groups"><a href="farminput_feed.html">Farm inputs</a></span><br><br>
+        <span id="side6" class="groups"><a href="machinery_feed.html">Machineries</a></span><br><br>
+        <span id="side7" class="groups"><a href="consultancy_feed.html">Consultancy</a></span><br><br>
+        <span id="side8" class="groups"><a href="transportation_feed.html">Transportation</a></span><br><br>
+        <span id="side9" class="groups"><a href="">Grants/loans</a></span><br>
+    </div>
+
+<div id="wrap">
+    <span class="post1">
+    <hr>
+        <textarea id="postarea" placeholder="Start a new post..."> </textarea>
+        <span id="post_icons">
+        <span >
+        <input type="file" id="file">    <img class="icon" src="images/cam1.png">
+        </span>
+ 
+            </span>
+       <br><br><br><hr>
+        <button id="pst" type="button" onclick="writeNewPost()" >POST</button>
+    </span>
+    <span id="postmain" class="post2"></span>
+    </div>
+    <div class="networks"><b id="nethead">My Networks</b></div>
+    </div>  
+	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-storage.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCTehPObteS25IpXS6Nq6rPe0v7WUfl8aU",
+    authDomain: "noma-3cd4a.firebaseapp.com",
+    databaseURL: "https://noma-3cd4a.firebaseio.com",
+    projectId: "noma-3cd4a",
+    storageBucket: "gs://noma-3cd4a.appspot.com",
+    messagingSenderId: "179180379874",
+    appId: "1:179180379874:web:59bf05e5edd825748a88bb"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+	
+	
+	
+	
+</script>
+    <script src="js/newpost.js"></script>
+    <script src="js/login.js"></script>
+    <script src="jquery/jquery-3.4.1.js"></script>
+    
+</div>
+</body>
+</html>

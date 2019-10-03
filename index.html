@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    
+    
+    
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="main.css">
+    
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    
+    <link rel="icon" href="images/Noma_round.png">
+    <title >Noma</title>
+	
+	
+</head>
+<body>
+<header>
+	
+	<div id="navbar" class="">
+	<span id="lg"><img src="images/logo.png"><strong>Noma</strong></span>
+	<a href="about.html"><button id="about" class="bnav btn btn-lg">ABOUT US</button></a>
+	<a href="shop.html"><button id="mktplace" class="bnav btn btn-lg">VISIT OUR MARKET PLACE</button></a>
+	<a href="#mainsign"><button id="losign" class="bnav btn btn-lg">LOGIN/SIGNUP</button></a>
+			
+	</div>
+	</header>
+	
+   <div id="backimage" class="container">
+			<div class="row">	
+			<div class="col-sm-6">
+				
+						</div>
+				
+			<div class="col-sm-6">
+				<div class="qtn btn">Are you a farmer?</div><br>
+				<div class="qtn btn">Are you an Agro-Business person?</div><br>
+				<div class="qtn btn">Are you a transporter?</div><br>
+				<div class="qtn btn">Are you a veterinary expert?</div><br>
+				<div class="qtn btn">Do you want to learn and network with other farmers?</div><br>
+				<div class="qtn btn">Do you want to reach out to your customers directly?</div><br>
+				<div class="qtn btn">Do you want to get your products to the market on time</div><br>
+				<div class="qtn btn">Do you want to reduce food wastage?</div><br><br>
+				<span id="welmes">Join Noma today and enjoy the company of fellow farmers </span>
+			
+				</div>
+			</div>
+			
+			
+			
+			
+			</div>
+		
+		
+		
+   <div class="row" id="mainsign">
+       
+       <div class="col-md-6 "><img src="images/Noma-web.png" alt="" id="logo1" class="img-responsive img-fluid"></div>
+       
+       <div class="col-md-6 ">
+           <h2 class="text">Join Noma today and Network with other Farmers</h2>
+           <div >
+               <form class="col-md-4">
+           <input id="email_field" type="text" placeholder="Enter phone/email"><br>
+            <input id="password_field" type="password" placeholder="Insert your password"><br>
+            <button class="blog" onclick="login()">Login</button><br>
+           </form>
+                <span id="quest">Dont have an account?<a href="pre_signup.html">Signup</a></span>
+           </div>
+       
+       
+       
+       </div>
+ 
+    </div>
+    <div><marquee><h3 class="text">Noma network farmers, agro-business, agro-industries and agro-allies industries</h3></marquee></div>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+	
+
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>	
+	
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-storage.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCTehPObteS25IpXS6Nq6rPe0v7WUfl8aU",
+    authDomain: "noma-3cd4a.firebaseapp.com",
+    databaseURL: "https://noma-3cd4a.firebaseio.com",
+    projectId: "noma-3cd4a",
+    storageBucket: "",
+    messagingSenderId: "179180379874",
+    appId: "1:179180379874:web:59bf05e5edd825748a88bb"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig)
+</script>
+  <script src="js/login.js"></script> 
+</body>
+</html>
